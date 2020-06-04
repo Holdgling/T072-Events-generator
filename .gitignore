@@ -1,2 +1,12 @@
 # Dependency directories
 node_modules/
+
+# Generated directories
+dist/
+
+# logs files
+*.log
+*.logs
+
+# locks files
+*.lock
