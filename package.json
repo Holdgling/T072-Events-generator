@@ -8,12 +8,19 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack",
-    "start": "webpack-dev-server --open --no-inline"
+    "start": "webpack-dev-server --open --no-inline",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "dependencies": {
+    "@testing-library/jest-dom": "^5.9.0",
+    "@testing-library/react": "^10.1.0",
+    "@types/jest": "^25.2.3",
     "@types/react-dom": "^16.9.8",
+    "jest": "^26.0.1",
     "react-dom": "^16.13.1",
     "source-map-loader": "^1.0.0",
+    "ts-jest": "^26.1.0",
     "ts-loader": "^7.0.5",
     "typescript": "^3.9.3",
     "webpack": "^4.43.0",
